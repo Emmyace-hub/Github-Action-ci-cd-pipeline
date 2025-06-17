@@ -1,0 +1,19 @@
+{
+  "name": "github-action-ci-cd-pipeline",
+  "version": "1.0.0",
+  "description": "![]()\r * Creating a GitHub repository \"Github-Action-ci-cd-pipeline\" and clone it into the local repository using the command:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline/issues"
+  },
+  "homepage": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline#readme"
+}
