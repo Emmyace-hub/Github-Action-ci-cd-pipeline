@@ -32,9 +32,18 @@
 A sample GitHub Actions workflow file automates testing and deployment.
 we set up a Github Action workflow and create a file "node.js.yml" in it which contains the script to automate testing across different node.js version
 ![2](./img/2a.png)
-![]()
-![]()
+
 
 
 # Deployment and Experimentation:
- Adding automated tests, deploying to cloud services, and modifying workflows for deeper learning.
+
+ * Adding automated tests into the worflow and inputting the test script below :
+
+       // app.test.js
+       test('adds 1 + 2 to equal 3', () => {
+       expect(1 + 2).toBe(3);
+       });
+
+ ![2](./img/2b.png)
+
+ 
