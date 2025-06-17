@@ -1,7 +1,7 @@
 # Github-Action-ci-cd-pipeline
 
 # Setting Up the Project: 
-![]()
+
 * Creating a GitHub repository "Github-Action-ci-cd-pipeline" and clone it into the local repository using the command:
     
       git clone https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline.git
@@ -30,6 +30,11 @@
 
 # Writing a CI Workflow: 
 A sample GitHub Actions workflow file automates testing and deployment.
+we set up a Github Action workflow and create a file "node.js.yml" in it which contains the script to automate testing across different node.js version
+![2](./img/2a.png)
+![]()
+![]()
+
 
 # Deployment and Experimentation:
  Adding automated tests, deploying to cloud services, and modifying workflows for deeper learning.
