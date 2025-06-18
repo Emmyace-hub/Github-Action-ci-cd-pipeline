@@ -1,22 +1,19 @@
 {
   "name": "github-action-ci-cd-pipeline",
   "version": "1.0.0",
-  "description": "Creating a GitHub repository and cloning it locally using Git.",
+  "description": "![]()\r * Creating a GitHub repository \"Github-Action-ci-cd-pipeline\" and clone it into the local repository using the command:",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline.git"
   },
-  "author": "Emmanuel Adeteye",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline/issues"
   },
-  "homepage": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline#readme",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "homepage": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline#readme"
 }
