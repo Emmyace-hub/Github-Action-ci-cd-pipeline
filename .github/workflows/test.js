@@ -1,4 +1,23 @@
-// app.test.js
-test('adds 1 + 2 to equal 3', () => {
-  expect(1 + 2).toBe(3);
-});
+const { default: test } = require("node:test");
+const { mainModule } = require("process");
+
+name:test
+
+on:
+  pull request:
+    branches:
+        - main
+
+ jobs:
+    test:
+        runs-on: ubuntu-latest
+        container:
+            image: node:20
+        steps:
+         -uses: actions/checkout@v3
+          with:
+            node-version: 20
+        -run: npm install
+        -run: npm test
+        -run: npm run build
+         
