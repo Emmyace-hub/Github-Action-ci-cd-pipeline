@@ -4,6 +4,7 @@
   "description": "![]()\r * Creating a GitHub repository \"Github-Action-ci-cd-pipeline\" and clone it into the local repository using the command:",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
