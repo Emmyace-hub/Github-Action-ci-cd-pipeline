@@ -67,3 +67,32 @@ we set up a Github Action workflow and create a file "node.js.yml" in it which c
  ![2](./img/2b.png)
  ![2](./img/3a.png)
 
+ * Addy deploy into the workflow with the script
+
+        name: Deploy Application
+
+         on:
+        push:
+        branches:
+        - main
+
+        jobs:
+        deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+         - name: Checkout code
+         uses: actions/checkout@v4
+
+        # Add build steps here if needed
+        # - name: Build
+        #   run: echo "Build your app here"
+
+        - name: Deploy to Server
+           run: |
+            echo "Deploying application..."
+           # Add your deployment commands here
+           # For example, scp files or use rsync, or call a deploy script
+
+![3](./img/3b.png)
+![3](./img/3c.png)
