@@ -39,11 +39,31 @@ we set up a Github Action workflow and create a file "node.js.yml" in it which c
 
  * Adding automated tests into the worflow and inputting the test script below :
 
-       // app.test.js
-       test('adds 1 + 2 to equal 3', () => {
-       expect(1 + 2).toBe(3);
-       });
+        name: test
+
+        on:
+       pull_request:
+       branches:
+       - main
+
+        jobs:
+       test:
+       runs-on: ubuntu-latest
+        container:
+        image: node:20
+
+        steps:
+         - uses: actions/checkout@v3
+
+        - name: Install dependencies
+        run: npm install
+
+        - name: Run tests
+        run: npm test
+
+        - name: Build project
+        run: npm run build
 
  ![2](./img/2b.png)
+ ![2](./img/3a.png)
 
- 
