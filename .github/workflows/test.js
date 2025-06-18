@@ -22,5 +22,3 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-         
