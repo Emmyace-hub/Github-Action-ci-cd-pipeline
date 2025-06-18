@@ -1,6 +1,3 @@
-const { default: test } = require("node:test");
-const { mainModule } = require("process");
-
 name:test
 
 on:
