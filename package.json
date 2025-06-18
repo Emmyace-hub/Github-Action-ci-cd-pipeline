@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline/issues"
   },
-  "homepage": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline#readme"
+  "homepage": "https://github.com/Emmyace-hub/Github-Action-ci-cd-pipeline#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

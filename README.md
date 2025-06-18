@@ -96,3 +96,10 @@ we set up a Github Action workflow and create a file "node.js.yml" in it which c
 
 ![3](./img/3b.png)
 ![3](./img/3c.png)
+
+* addd a start script to the package.json to enable deploy on render
+
+        "start": "node index.js",
+          "test": "echo \"No tests specified\" && exit 0"
+         },
+![4](./img/4b.png)
