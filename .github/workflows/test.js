@@ -30,9 +30,14 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+            
 
       - name: Install dependencies
         run: npm install
+
+      - name: Run Linter
+        run: npx eslint .
+        # Runs ESLint to check for code issues
 
       - name: Run tests
         run: npm test
